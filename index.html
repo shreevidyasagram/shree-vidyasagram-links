@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100d">
+  <meta name="description" content="Shree Vidyasagram — dressing generations with trust since 1995. Visit us at Khaperkheda, Nagpur.">
+  <title>Shree Vidyasagram | Dressing Generations With Trust</title>
+  <style>
+    :root { color-scheme: dark; --gold:#d9b978; --cream:#f7f0df; }
+    * { box-sizing:border-box; }
+    html,body { margin:0; min-height:100%; }
+    body {
+      min-height:100vh; min-height:100svh; display:grid; place-items:center;
+      padding:28px 18px; color:var(--cream);
+      font-family: Georgia, "Times New Roman", serif;
+      background:#17140f url("storefront.jpg") center/cover fixed no-repeat;
+    }
+    body::before { content:""; position:fixed; inset:0; background:linear-gradient(180deg,rgba(10,9,7,.68),rgba(10,9,7,.83)); }
+    main { position:relative; z-index:1; width:min(100%,480px); text-align:center; padding:34px 25px 28px; border:1px solid rgba(217,185,120,.48); background:rgba(15,14,11,.62); box-shadow:0 18px 70px #0008; backdrop-filter:blur(8px); }
+    .eyebrow { margin:0 0 15px; color:var(--gold); font:600 11px/1.5 Arial,sans-serif; letter-spacing:.28em; text-transform:uppercase; }
+    h1 { margin:0; font-size:clamp(34px,8vw,49px); line-height:1.04; font-weight:500; letter-spacing:.015em; }
+    .tagline { margin:13px 0 5px; font-size:15px; color:#e7d9bd; font-style:italic; }
+    .since { margin:0 0 27px; color:var(--gold); font:11px Arial,sans-serif; letter-spacing:.2em; text-transform:uppercase; }
+    .rule { height:1px; width:66px; margin:0 auto 23px; background:var(--gold); opacity:.8; }
+    .links { display:grid; gap:11px; }
+    .link { display:flex; align-items:center; justify-content:center; min-height:52px; padding:13px 16px; border:1px solid rgba(217,185,120,.78); color:var(--cream); text-decoration:none; font:600 12px Arial,sans-serif; letter-spacing:.13em; text-transform:uppercase; transition:background .2s,color .2s,transform .2s; }
+    .link.primary,.link:hover,.link:focus-visible { background:var(--gold); color:#17130d; outline:none; transform:translateY(-1px); }
+    .location { margin:24px 0 0; color:#e2d8c5; font:11px/1.7 Arial,sans-serif; letter-spacing:.09em; text-transform:uppercase; }
+    footer { position:relative; z-index:1; margin-top:15px; color:#e8ddc8; font:10px Arial,sans-serif; letter-spacing:.12em; text-align:center; }
+    @media(max-width:420px) { main { padding:29px 19px 24px; } .link { min-height:50px; } }
+    @media(prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; } }
+  </style>
+</head>
+<body>
+  <div>
+    <main>
+      <p class="eyebrow">A family store for generations</p>
+      <h1>Shree<br>Vidyasagram</h1>
+      <p class="tagline">Dressing generations with trust</p>
+      <p class="since">Serving since 1995</p>
+      <div class="rule"></div>
+      <nav class="links" aria-label="Shop links">
+        <a class="link primary" href="https://instagram.com/shreevidyasagram_/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a class="link" href="https://www.facebook.com/share/1Lj1E4ceMg/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="link" href="https://wa.me/918421377109" target="_blank" rel="noopener noreferrer">WhatsApp Us</a>
+        <a class="link" href="https://g.page/r/Ca-2TOqo9VueEBM/review" target="_blank" rel="noopener noreferrer">Write a Google Review</a>
+        <a class="link" href="https://maps.app.goo.gl/1uNmM8wQZZE1XgPB7" target="_blank" rel="noopener noreferrer">Get Directions</a>
+      </nav>
+      <p class="location">Khaperkheda · Nagpur</p>
+    </main>
+    <footer>WOMEN · KIDS · ETHNIC · MENSWEAR</footer>
+  </div>
+</body>
+</html>
